@@ -162,10 +162,6 @@ img {
     grid-template-columns: 4fr 3fr;
 }
 
-.cloud-img {
-    pointer-events: none;
-}
-
 /* languages */
 
 .languages .flex {
@@ -185,6 +181,12 @@ img {
 
 .languages .card:hover {
     transform: translateY(-15px);
+}
+
+/* features */
+.features-head img {
+    width: 200px;
+    justify-self: flex-end;
 }
 
 /* footer */
