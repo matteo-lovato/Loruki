@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-
-:root {
-    --primary-color: #047aed;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -160,4 +154,14 @@ img {
 .cli .grid > *:first-child {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+}
+
+/* cloud */
+
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+}
+
+.cloud-img {
+    pointer-events: none;
 }
