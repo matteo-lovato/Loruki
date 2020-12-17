@@ -188,6 +188,10 @@ img {
     width: 200px;
     justify-self: flex-end;
 }
+.features-subhead img {
+    width: 300px;
+    justify-self: flex-end;
+}
 
 /* footer */
 
